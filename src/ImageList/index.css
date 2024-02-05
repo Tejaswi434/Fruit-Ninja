@@ -1,0 +1,9 @@
+.rowing {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.data {
+  height: 220px;
+  width: 220px;
+}

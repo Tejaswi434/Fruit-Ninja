@@ -1,0 +1,32 @@
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  height: 100vw;
+  width: 100vw;
+  background-size: cover;
+}
+
+.score_white {
+  color: white;
+}
+.heading-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.score_timer {
+  display: flex;
+  flex-direction: row;
+}
+.buttons_tab {
+  text-align: center;
+}
+.button_1 {
+  margin-right: 140px;
+}
+.button_2 {
+  margin-right: 140px;
+}
+.button_3 {
+  margin-right: 140px;
+}
