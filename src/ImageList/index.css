@@ -4,6 +4,13 @@
   flex-wrap: wrap;
 }
 .data {
-  height: 220px;
-  width: 220px;
+  height: 150px;
+  width: 150px;
+}
+.button_change {
+  border: transparent;
+  margin-left: 20px;
+  height: 150px;
+  width: 150px;
+  background: transparent;
 }
