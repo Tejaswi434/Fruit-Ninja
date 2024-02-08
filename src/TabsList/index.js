@@ -316,8 +316,8 @@ class TabsList extends Component {
     const {tabitem, time, isTrue, score, firstUrl} = this.state
     const filtereddata = this.tabSelecting()
     return (
-      <div className="bg-container">
-        <div className="heading-1">
+      <ul className="bg-container">
+        <nav className="heading-1">
           <div className="match_image_logo">
             <img
               src="https://assets.ccbp.in/frontend/react-js/match-game-website-logo.png"
@@ -336,13 +336,14 @@ class TabsList extends Component {
                 className="timer_sizing"
               />
               <h1 className="darkening">{time}</h1>
+              <p className="darkening_2">sec</p>
             </div>
           </div>
-        </div>
+        </nav>
         {!isTrue && (
-          <div>
+          <ul>
             <div>
-              <img src={firstUrl} className="firstImage" />
+              <img src={firstUrl} className="firstImage" alt="match" />
             </div>
             <div className="buttons_tab">
               <button className="button_1" onClick={this.fruits} type="button">
@@ -366,31 +367,32 @@ class TabsList extends Component {
                 ))}
               </ul>
             </div>
-          </div>
+          </ul>
         )}
         {isTrue && (
-          <div className="background_two">
+          <ul className="background_two">
             <div className="center">
               {' '}
               <img
                 src="https://assets.ccbp.in/frontend/react-js/match-game-trophy.png"
                 className="trophy"
+                alt="timer"
               />{' '}
             </div>
             <div className="center_b">
-              <h1 className="white">Your Score</h1>
-              <h1 className="white_b">{score}</h1>
+              <p className="white">YOUR SCORE</p>
+              <p className="white_b">{score}</p>
               <button
                 type="button"
                 onClick={this.resettingGame}
                 className="purple"
               >
-                Play Again
+                PLAY AGAIN
               </button>
             </div>
-          </div>
+          </ul>
         )}
-      </div>
+      </ul>
     )
   }
 }
