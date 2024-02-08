@@ -59,7 +59,7 @@
 }
 .background_two {
   background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
-  height: 55vw;
+  height: 50vw;
   width: 60vw;
   background-size: cover;
   margin: auto;
@@ -97,10 +97,17 @@
 .timer_sizing {
   height: 50px;
   width: 50px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .darkening {
   color: #fec653;
+  margin-top: 30px;
+}
+.darkening_2 {
+  color: #fec653;
+  margin-top: 35px;
+
+  margin-left: 7px;
 }
 .rowing {
   display: flex;
